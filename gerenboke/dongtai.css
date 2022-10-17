@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    position: relative;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('fonts/STXINGKA.TTF');
+    src: url('fonts/STXINGKA.eot');
+    src: url('fonts/STXINGKA.svg');
+    src: url('fonts/STXINGKA.woff');
+}
+
+
+/* 头部导航栏 */
+#main {
+    position: relative;
+}
+
+#main .nav .font {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgba(52, 51, 51, 0.3);
+    top: 0;
+    z-index: 5;
+}
+
+#main .nav .font li {
+    float: left;
+    margin: 0 -60px;
+    margin-left: 240px;
+    line-height: 60px;
+    list-style: none;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#main .nav .font a {
+    text-decoration: none;
+    color: rgb(55, 54, 54);
+
+}
+
+#main .nav .font a:hover {
+    background: rgb(61, 165, 209);
+    display: block;
+}
+
+/* 背景 */
+#top img {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    /* background-color: antiquewhite; */
+}
+
+#bg img {
+    width: 100%;
+}
+
+/* 头像 */
+#touxiang {
+    position: absolute;
+    top: 210px;
+    left: 260px;
+
+}
+
+#touxiang img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 3px rgb(47, 47, 47);
+}
+
+#touxiang p {
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.font h2 {
+    font-size: 48px;
+    font-family: myfont;
+    position: absolute;
+    top: 250px;
+    left: 440px;
+    /* background-color: antiquewhite; */
+}
+
+/* 身体内容 */
+#body {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -640px;
+    /* background-color: black; */
+}
+
+#body .box {
+    width: 1280px;
+    height: 2700px;
+    background-color: rgb(250,235,215,.5);
+    border-radius: 5%;
+    box-shadow: 4px 4px 3px rgb(47, 47, 47);
+    /* position: relative; */
+    padding-top: 90px;
+}
+
+
+/* 第一条动态 */
+#body .box .box1 {
+    width: 1280px;
+    height: 80px;
+    background-color: rgb(192, 191, 189);
+    position: relative;
+}
+
+#body .box .box1 h2 {
+    padding-left: 50px;
+    line-height: 80px;
+}
+
+#body .box .head {
+    width: 1280px;
+    height: 620px;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+#body .box .head img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+
+#body .box .head h4 {
+    font-size: 14px;
+    line-height: 2px;
+    padding-left: 210px;
+    padding-top: 35px;
+}
+
+#body .box .head p {
+    padding-left: 120px;
+    padding-top: 45px;
+}
+
+#body .box .head .one {
+    width: 280px;
+    height: 280px;
+    border-radius: 0;
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+
+#body .box .head .two {
+    width: 280px;
+    height: 280px;
+    border-radius: 0;
+    position: absolute;
+    top: 160px;
+    left: 470px;
+}
+
+#body .box .head .wen {
+    position: absolute;
+    top: 410px;
+    left: 60px;
+}
+
+/* #body .box .head .ping {
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(234, 229, 229);
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -500px;
+} */
+
+/* #body .box .head .pl {
+    position: absolute;
+    top: 464px;
+    left: 50px;
+} */
+#body .box .head input {
+    width: 900px;
+    height: 40px;
+    /* background-color: rgb(234, 229, 229); */
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+
+
+/* 第二条动态 */
+#body .box .out {
+    width: 1280px;
+    height: 30px;
+    background-color: rgb(192, 191, 189);
+    position: relative;
+}
+
+/* 第三张图片 */
+#body .box .head .three {
+    width: 280px;
+    height: 280px;
+    border-radius: 0;
+    position: absolute;
+    top: 160px;
+    left: 770px;
+}

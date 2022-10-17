@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    position: relative;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('fonts/STXINGKA.TTF');
+    src: url('fonts/STXINGKA.eot');
+    src: url('fonts/STXINGKA.svg');
+    src: url('fonts/STXINGKA.woff');
+}
+
+
+/* 头部导航栏 */
+#main {
+    position: relative;
+}
+
+#main .nav .font {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgba(52, 51, 51, 0.3);
+    top: 0;
+}
+
+#main .nav .font li {
+    float: left;
+    margin: 0 -60px;
+    margin-left: 240px;
+    line-height: 60px;
+    list-style: none;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#main .nav .font a {
+    text-decoration: none;
+    color: rgb(55, 54, 54);
+
+}
+
+#main .nav .font a:hover {
+    background: rgb(61, 165, 209);
+    display: block;
+}
+
+/* 正文内容 */
+#body .none {
+    width: 350px;
+    height: 700px;
+    background-color: bisque;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    border-radius: 8%;
+    box-shadow: 3px 3px 3px #333;
+
+}
+
+#body .picture img {
+    width: 250px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 5px #333;
+    margin-left: 200px;
+    position: absolute;
+    top: 200px;
+}
+
+#body .picture p {
+    margin-left: 260px;
+    position: absolute;
+    top: 500px;
+    font-size: 58px;
+    text-shadow: 3px 3px 5px #333;
+    font-family: myfont;
+    color: rgb(4, 220, 220);
+}
+
+#body .font {
+    width: 850px;
+    height: 700px;
+    background-color: bisque;
+    position: absolute;
+    top: 70px;
+    left: 590px;
+    border-radius: 8%;
+    box-shadow: 3px 3px 3px #333;
+}
+
+#body .font .one {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#body .font p {
+    font-size: 28px;
+    line-height: 25px;
+    color: rgb(58, 57, 57);
+    margin-top: 20px;
+    /* padding-top: 30px; */
+    font-family: myfont;
+}
+
+#body .font hr {
+    width: 680px;
+    height: 2px;
+    background-color: rgb(118, 117, 117);
+}
